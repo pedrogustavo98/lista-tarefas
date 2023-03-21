@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+.card-assunto{
+    background-color: #202124;
+    color: #FFF;
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    box-shadow: #0000006b 5px 5px 5px ;
+    background-image: url('/assets/alfinete.avif');
+    flex-flow: wrap;
+    display: flex;
+    padding: 10px;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-conteudo{
+    height: 100vh;
+    width: 400px;
+    background-color: #202124;
+    padding: 25px;
+}
+
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    color: #777;
+}
+
+.textarea{
+    resize: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.textarea:focus{
+    outline: 1px solid #FF1450;
+}
+
+.input-padrao{
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.input-padrao:focus{
+    outline: 1px solid #FF1493;
+}
+
+button{
+    background-color: #FF1450;
+    border: none;
+    color: #FFF;
+    height: 40px;
+}
+
+button:active{
+    background-color: #FF1493;
+}
+
+#box{
+    background-color: #FFF;
+    height: 100%;
+    padding: 0px;
+}
+
+
+#box>h1{
+    margin: 0;
+    padding: 0;
+    height: 10px;
+}
+
+.button-padrao{
+    background-color:#202124;
+    border-radius: 5px;
+}
+
+span{
+    height: 100px;
+    width: 100%!important;
+}
+
+.apagar{
+    background-color: red;
+}
+
+.apagar:hover{
+    background-color: #ce1e1e;
+}
+
+.apagar:active{
+    background-color: #B22222;
+}
+
+.concluir{
+    background-color: #00FF00;
+}
+
+.concluir:hover{
+    background-color: rgb(7, 143, 7);
+}
+
+.concluir:active{
+    background-color: green	;
+}
